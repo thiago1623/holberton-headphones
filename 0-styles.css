@@ -43,7 +43,7 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 100vh;
 }
 
 .all-content {
@@ -177,17 +177,18 @@ a:active {
     justify-content: center;
     align-items: center;
     padding: 10vh;
-    margin: 11rem 8rem 0 8rem;
+    margin: 8rem 8rem 0 8rem;
 }
 
 .content-info {
     /* background: turquoise; */
     width: 797px;
-    height: 383px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 6vh;
 }
 
 .content-principal {
@@ -196,7 +197,7 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2.5rem;
+    margin-top: 4.5rem;
     /* margin-bottom: 10px; */
 }
 
@@ -270,7 +271,8 @@ h2 p {
 .content-secondary p{
     /* background: rgb(205, 50, 166); */
     width: 100%;
-    height: 80%;
+    height: 90%;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,24 +285,63 @@ h2 p {
 
 
 /*=============RESPONSIVE DESING==============*/
-/* 
 
-@media screen and (max-width:1000px) and (min-width:769px){
+
+/* @media screen and (min-width:769px) and (max-width:1000px){
     .header {
-        background-image: url(./images/headphones_hero_1.jpg);
-        background-repeat: no-repeat;
-        background-size: contain 800px;
-        display: flex;
-        flex-direction: column;
-        height: 800px;
+        background-size: contain ;
+        height: 100vh;
     }
 } */
 
-/* 
-@media screen and (max-width:768px){
-    .content {
-        background: #fff;
+@media screen and (min-width:769px) and (max-width:1000px){
+    .header {
+        background-size: 100% 100vh;
     }
-} */
+}
+
+
+
+@media screen and (max-width:768px){
+    .header {
+        background-size: 100% 100vh;
+    }
+
+    .content-info {
+        /* background: turquoise; */
+        margin-top: -4vh;
+    }
+
+    .content-principal {
+        /* background:salmon; */
+        align-items: center;
+        margin-top: 4.5rem;
+        /* margin-bottom: 10px; */
+    }
+    h1 {
+        /* background:cadetblue; */
+        height: 80px;
+        font-size: 28px;
+        margin-bottom: -1.5rem;
+    }
+
+    h1 p {
+        margin-top: 2rem;
+    }
+
+    h2 {
+        /* background:rgb(32, 72, 206); */
+        height: 40px;
+        width: 60vh;
+    }
+
+    h2 p {
+        /* background:yellow; */
+        height: 30px;
+        width: 100%;
+        margin-top: -1rem;
+        font-size: 16px;
+    }
+}
 
 /* @media screen and (max-width: 406px) and (min-width: 376px) { */
