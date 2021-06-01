@@ -121,7 +121,6 @@ body {
 }
 
 .header-content {
-    /* background:turquoise; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,7 +129,6 @@ body {
 }
 
 .content {
-    /* background: violet; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -138,7 +136,6 @@ body {
 }
 
 .content label {
-    /* background: #FF6565; */
     display: none;
     width: var(--width-20);
     height: var(--height-20);
@@ -155,7 +152,6 @@ body {
 }
 
 .logotype {
-    /* background:black; */
     width: var(--width-161);
     height: var(--height-32);
     display: flex;
@@ -168,7 +164,6 @@ body {
 
 
 .content-nav {
-    /* background:green; */
     width: var(--max-width);
     display: flex;
     flex-direction: row;
@@ -176,14 +171,12 @@ body {
 }
 
 .navbar {
-    /* background:crimson; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .navbar-ul {
-    /* background: gold; */
     width: var(--width-365);
     height: var(--heigth-35);
     display: flex;
@@ -195,7 +188,6 @@ body {
 }
 
 #list {
-    /* background:grey; */
     height: var(--heigth-15);
     padding: var(--padding-20);
     font-family: var(--font-list);
@@ -224,7 +216,6 @@ a:active {
 
 
 .info-header {
-    /* background:royalblue; */
     height: var(--heigth-45-porcent);
     display:flex;
     flex-direction: column;
@@ -235,7 +226,6 @@ a:active {
 }
 
 .content-info {
-    /* background: turquoise; */
     width: var(--width-797);
     height: var(--heigth-420);
     display: flex;
@@ -246,7 +236,6 @@ a:active {
 }
 
 .content-principal {
-    /* background:salmon; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,7 +255,6 @@ h1 {
 }
 
 h2 {
-    /* background:rgb(32, 72, 206); */
     height: var(--height-20);
     width: var(--width-60-vh);
     display: flex;
@@ -275,7 +263,6 @@ h2 {
 }
 
 h2 p {
-    /* background:yellow; */
     height: var(--height-20);
     width: var(--max-width);
     display: flex;
@@ -312,7 +299,6 @@ h2 p {
 }
 
 .content-secondary {
-    /* background: yellowgreen; */
     width: var(--width-737);
     height: var(--heigth-104);
     display: flex;
@@ -322,7 +308,6 @@ h2 p {
 }
 
 .content-secondary p{
-    /* background: rgb(205, 50, 166); */
     width: var(--max-width);
     height: var(--height-90-porcent);
     margin-top: var(--margin-top-4-rem);
@@ -354,18 +339,14 @@ h2 p {
     }
 
     .content-info {
-        /* background: turquoise; */
         margin-top: -4vh;
     }
 
     .content-principal {
-        /* background:salmon; */
         align-items: center;
         margin-top: 4.5rem;
-        /* margin-bottom: 10px; */
     }
     h1 {
-        /* background:cadetblue; */
         height: var(--height-80);
         font-size: var(--font-28);
         margin-bottom: -1.5rem;
@@ -376,13 +357,11 @@ h2 p {
     }
 
     h2 {
-        /* background:rgb(32, 72, 206); */
         height: var(--height-40);
         width: var(--width-60-vh);
     }
 
     h2 p {
-        /* background:yellow; */
         height: var(--height-32);
         width: var(--max-width);
         margin-top: -1rem;
@@ -390,13 +369,11 @@ h2 p {
     }
 
     .content-secondary {
-        /* background: yellowgreen; */
         width: var(--width-637);
         height: var(--heigth-104);
     }
 
     .content-secondary p{
-        /* background: rgb(205, 50, 166); */
         width: var(--max-width);
         height: var(--max--height);
         padding: 2rem 0 2rem 0;
@@ -412,7 +389,7 @@ h2 p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 280px) and (max-width: 480px) {
 
     .header {
         background-image: url(./images/background.png);
@@ -427,7 +404,6 @@ h2 p {
         margin-top: 1vh;
     }
     .content label {
-        /* background: #FF6565; */
         display: block;
         width: var(--width-20);
         height: var(--height-20);
@@ -446,14 +422,12 @@ h2 p {
 
 
     .content {
-        /* background: violet; */
         width: var(--width-95-porcent);
         height: auto;
         display: block;
         margin: var(--margin-20);
     }
     .logotype {
-        /* background: rgb(130, 216, 238); */
         width: var(--width-60-porcent);
         margin-left: 8vh;
         margin-top: -60px;
@@ -464,7 +438,6 @@ h2 p {
     }
 
     .content-nav {
-        /* background:chartreuse; */
         height: 32%;
         width: var(--width-95-porcent);
         margin-top: -5%;
@@ -473,12 +446,10 @@ h2 p {
         position: absolute;
     }
     .navbar {
-        /* background:royalblue; */
         width: 67%;
         margin-left: 1vh;
     }
     .navbar-ul {
-        /* background:seagreen; */
         width: var(--max-width);
         height: var(--max--height);
         display: block;
@@ -486,7 +457,6 @@ h2 p {
         margin: var(--empty-margin);
     }
     #list {
-        /* background: #FF6565; */
         width: var(--max-width);
         height: 20%;
         margin-left: -5vh;
@@ -502,7 +472,6 @@ h2 p {
     }
 
     .info-header {
-        /* background:rgb(122, 63, 73); */
         width: 56%;
         height: 40%;
         margin: 10px 0;
@@ -510,19 +479,16 @@ h2 p {
     }
 
     .content-info {
-        /* background: turquoise; */
         width: 375px;
         height: var(--max--height);
         margin-top: -10vh;
     }
 
     .content-principal {
-        /* background:salmon; */
         width: var(--max-width);
         align-items: center;
     }
     h1 {
-        /* background:cadetblue; */
         height: var(--max--height);
         width: var(--max-width);
         display: flex;
@@ -534,7 +500,6 @@ h2 p {
     }
 
     h1 p {
-        /* background:#5f034b; */
         height: var(--max--height);
         margin-top: 10px;
         text-align: center;
@@ -542,7 +507,6 @@ h2 p {
     }
 
     h2 {
-        /* background:rgb(32, 72, 206); */
         height: 40%;
         width: 65%;
         padding: var(--normal-padding);
@@ -550,7 +514,6 @@ h2 p {
     }
 
     h2 p {
-        /* background:yellow; */
         height: var(--max--height);
         width: var(--max-width);
         font-size: var(--list-style-list2);
@@ -561,11 +524,9 @@ h2 p {
     .btn-info {
         width: 172px;
         height: 84px;
-        /* margin: 0 0 40px 0; */
     }
 
     .content-secondary {
-        /* background: yellowgreen; */
         width: var(--max-width);
         height: 58%;
         margin: 10%;
@@ -573,7 +534,6 @@ h2 p {
     }
 
     .content-secondary p{
-        /* background: rgb(205, 50, 166); */
         width: 89%;
         height: 60%;
         margin: var(--empty-margin);
